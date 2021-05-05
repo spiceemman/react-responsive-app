@@ -68,6 +68,9 @@ footer{
   margin-left: 0.6em;
 }
 
+/* Media query for screens with a max width of 992px */
+
+
 @media only screen and (max-width: 992px){
   main{
     display: flex;
@@ -122,6 +125,8 @@ footer{
   margin: 20px auto 5px;
 }
 }
+
+/* Media query for screens with a max width of 600px */
 
 @media only screen and (max-width: 600px){
   main img {
