@@ -17,7 +17,10 @@ function App() {
         <div className="content">
           <h2>Build the community your fans will love</h2>
           <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussions.</p>
-          <button>Register</button>
+          <div className="btn">
+            <button>Register</button>
+          </div>
+          
         </div>
         
       </main>

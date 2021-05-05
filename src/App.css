@@ -26,7 +26,7 @@ main img{
 .content{
   width: 35%;
   padding-top: 2em;
-  margin: 0 100px 0 5px;
+  margin: 0 25px 0 15px;
 }
 
 .content h2{
@@ -48,6 +48,12 @@ main button{
   width: 40%;
 }
 
+button:hover, .fab:hover{
+  color: white;
+  background-color:plum;
+  cursor: pointer;
+}
+
 footer{
   margin-top: 1em;;
 }
@@ -61,3 +67,87 @@ footer{
   padding: 0.4em;
   margin-left: 0.6em;
 }
+
+@media only screen and (max-width: 992px){
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header img {
+    width: 40%;
+    margin: 0.5em auto 0.2em 0.5em;
+}
+
+main img {
+  width: 90%;
+  margin: 0.5em auto;
+}
+
+.content{
+  width: 100%;
+  padding-top: 2em;
+  margin: 20px auto;
+}
+
+.content h2 {
+  font-size: 2.2em;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.content p {
+  width: 85%;
+  font-size: 1em;
+  text-align: center;
+  margin: 30px auto;
+}
+.btn{
+  display: flex;
+  justify-content:center;
+  margin: 20px auto;
+}
+
+main button{
+  width: 60%;
+  font-size:0.8em;
+  padding: 1em;
+}
+
+footer{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: 20px auto 5px;
+}
+}
+
+@media only screen and (max-width: 600px){
+  main img {
+    width: 100%;
+  }
+
+  .content h2 {
+    font-size: 1.7em;
+    width: 82%;
+    margin: 10px auto;
+  }
+
+  .content p {
+    width: 87%;
+    font-size: 1em;
+    margin: 30px auto;
+  }
+  
+  main button{
+    width: 50%;
+    font-size:0.8em;
+    padding: 0.8em;
+  }
+
+  footer{
+    margin: 8px auto 5px;
+  }
+}
+
